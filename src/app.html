@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        %sveltekit.head%
+
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+        <!-- PWA icons -->
+        <link rel="icon" href="/icons/icon-192.png" sizes="192x192" />
+        <link rel="icon" href="/icons/icon-512.png" sizes="512x512" />
+
+        <!-- iOS home screen icons -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/icons/apple-touch-icon-180.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="167x167"
+            href="/icons/apple-touch-icon-167.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="/icons/apple-touch-icon-152.png"
+        />
+
+        <!-- iOS PWA fullscreen support -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    </head>
+    <body data-sveltekit-preload-data="hover">
+        <div style="display: contents">%sveltekit.body%</div>
+    </body>
+</html>
