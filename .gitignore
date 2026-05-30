@@ -18,6 +18,11 @@ Thumbs.db
 !.env.example
 !.env.test
 
+# TLS certificates (generate locally, never commit)
+certs/*.pem
+certs/*.crt
+certs/*.key
+
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
